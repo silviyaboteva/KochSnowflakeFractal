@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>KochSnowflake</title>
+    <link rel="stylesheet" title="style" href="style.css">
+    <script type="text/javascript" src="fractal.js"></script>
+  	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  </head>
+
+  <body onload="init(iteration);">
+  	
+  <div id="wrapper">
+    <div id="header">
+    	<h1>Koch Snowflake</h1>
+    </div>
+    <div id="container">
+    <p class="center biggerfont">Текуща итерация: <span id="iterationCounter" class="iteraction-number">0<span></p>
+     <div id="controls">
+       <ul>
+        <li><a class="large button red" onclick="next_iteration(-1);">Предишна итерация</a></li>
+        <li><a class="large button red" onclick="next_iteration(1);">Следваща итерация</a></li>
+       </ul>
+      </div>
+    <div class="wrapper-canvas">
+  	  <canvas id="imageView" width="550" height="510">	  
+        Sorry, the browser you are using does not support the new standards.
+          Please use a newer version
+  	  </canvas>
+    </div>
+	</div>    
+    <div id="footer"><p class="center">Silviya Boteva, 71651</p>
+    <p class="center">FMI, 2017</p>
+    </div>
+    </div>
+  </body>
+</html>
